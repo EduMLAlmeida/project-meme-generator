@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+    <main>
+        <h1>MEME GENERATOR</h1>
+        <div class='inputs'>
+            <label>Texto:</label>
+            <input type='text' id='text-input' maxlength='60'>
+        </div>
+        <div class='inputs'>
+            <label>Foto:</label>
+            <input type='file' id='meme-insert'>
+        </div>
+        <div id='meme-image-container'>
+            <p id='meme-text'></p>
+            <img id='meme-image'>
+        </div>
+        <h2>Estilos customizados:</h2>
+        <div class='div-buttons1'>            
+            <button id='fire'>fire</button>
+            <button id='water'>water</button>
+            <button id='earth'>earth</button>
+        </div>
+        <h2>Memes pré prontos:</h2>
+        <div class='div-buttons2'>            
+            <button id='meme-1'><img src='imgs/meme1.png' class='image-buttons'></button>
+            <button id='meme-2'><img src='imgs/meme2.png' class='image-buttons'></button>
+            <button id='meme-3'><img src='imgs/meme3.png' class='image-buttons'></button>
+            <button id='meme-4'><img src='imgs/meme4.png' class='image-buttons'></button>
+        </div>
+    </main>
+    <script src='script.js'></script>
+</body>
+</html>
